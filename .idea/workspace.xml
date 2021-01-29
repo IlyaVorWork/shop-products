@@ -23,25 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="659b4310-00b7-40ee-8d54-0ad0dd69383d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.storybook/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.storybook/preview.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/babel.config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pages/_app.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pages/_document.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/providers/ThemeProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/scripts/themes/dark-theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/scripts/themes/light-theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/styles/global.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/_document.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/about.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/users/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/users/[id].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/users/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/users/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/providers/ThemeProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/providers/ThemeProvider.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,6 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611657135082</updated>
       <workItem from="1611657140623" duration="12748000" />
+      <workItem from="1611910516514" duration="4140000" />
     </task>
     <servers />
   </component>
@@ -138,11 +130,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1611914288942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.305.1366.728@0.0.1920.1040" timestamp="1611914288942" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1611914288942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.305.1366.728@0.0.1920.1040" timestamp="1611914288942" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1611914288942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.305.1366.728@0.0.1920.1040" timestamp="1611914288942" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1611914288942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.305.1366.728@0.0.1920.1040" timestamp="1611914288942" />
     <state x="417" y="196" key="SettingsEditor" timestamp="1611658952159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

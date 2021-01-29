@@ -34,7 +34,7 @@ MyDocument.getInitialProps = async (ctx: DocumentContext) => {
 
   ctx.renderPage = () =>
     originalRenderPage({
-      enchanceApp: (App) => (props) =>
+      enhanceApp: (App) => (props) =>
         materialUiServerStyleSheets.collect(<App {...props} />),
     })
 

@@ -3,7 +3,7 @@ import { FunctionComponent, ReactNode } from 'react'
 
 import CssBaseLine from '@material-ui/core/CssBaseline'
 import { MuiThemeProvider } from '@material-ui/core/styles'
-import StylesProvider from '@material-ui/styles'
+import { StylesProvider } from '@material-ui/styles'
 
 import { ThemeProvider as StyledThemeProvider } from 'styled-components'
 

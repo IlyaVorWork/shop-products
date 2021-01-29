@@ -1,5 +1,7 @@
 import { themes } from '../.storybook/preview'
-import React from 'react'
+import React, { useEffect } from 'react'
+import { AppProps } from 'next/app'
+import ThemeProvider from '../providers/ThemeProvider'
 
 const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
   useEffect(() => {

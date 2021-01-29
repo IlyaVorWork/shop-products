@@ -1,4 +1,5 @@
 import { GetStaticProps, GetStaticPaths } from 'next'
+import React from 'react'
 
 import { User } from '../../interfaces'
 import { sampleUserData } from '../../utils/sample-data'
