@@ -23,32 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="659b4310-00b7-40ee-8d54-0ad0dd69383d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/config/setupTests.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/jest.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bash.exe.stackdump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/utils/__mocks__/fileMock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/utils/__mocks__/styleMock.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/List.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/List.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ListDetail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/ListDetail.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/ListItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/interfaces/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/next-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/next-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/babel.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/babel.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/_document.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/api/users/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/users/[id].tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/users/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/providers/ThemeProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/providers/ThemeProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/scripts/themes/dark-theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/scripts/themes/dark-theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/scripts/themes/light-theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/scripts/themes/light-theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/utils/sample-data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/utils/sample-data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +75,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\e-auc\client\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -149,8 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.lint-fix" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.lint-fix" />
         <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
@@ -168,7 +149,8 @@
       <updated>1611657135082</updated>
       <workItem from="1611657140623" duration="12748000" />
       <workItem from="1611910516514" duration="4140000" />
-      <workItem from="1611922029288" duration="4442000" />
+      <workItem from="1611922029288" duration="4869000" />
+      <workItem from="1612268041129" duration="1980000" />
     </task>
     <servers />
   </component>

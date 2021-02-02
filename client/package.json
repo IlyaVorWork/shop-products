@@ -9,7 +9,9 @@
     "build-storybook": "build-storybook",
     "storybook": "start-storybook -p 6006",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore .",
-    "lint-fix": "eslint --fix --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore ."
+    "lint-fix": "eslint --fix --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore .",
+    "test": "jest --setupFiles ./config/setupTests.ts",
+    "test:coverage": "jest --coverage --setupFiles ./config/setupTests.ts"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
