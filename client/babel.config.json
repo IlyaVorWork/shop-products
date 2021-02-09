@@ -1,13 +1,23 @@
 {
   "presets": [
-    "@babel/preset-env",
+    [
+      "next/babel",
+      {
+        "preset-env": {
+          "targets": "> 0.25%"
+        }
+      }],
     "@babel/preset-react",
     "@babel/preset-typescript"
   ],
   "plugins": [
-    "@babel/plugin-transform-runtime",
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "runtime": "automatic"
+      }
+    ],
     "@babel/plugin-syntax-dynamic-import",
-    "@babel/plugin-transform-modules-commonjs",
     "@babel/plugin-proposal-class-properties"
   ],
   "env": {

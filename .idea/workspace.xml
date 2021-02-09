@@ -23,16 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="659b4310-00b7-40ee-8d54-0ad0dd69383d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/client/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.storybook/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/.storybook/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.storybook/next-preset.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/.storybook/next-preset.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.storybook/preview.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/.storybook/preview.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/babel.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/babel.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/Layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/_app.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/_document.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/users/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/users/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/users/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/users/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/providers/ThemeProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/providers/ThemeProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/styles/global.sass" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/styles/global.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +89,7 @@
       <recent name="C:\e-auc\client\utils" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -98,8 +100,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -113,7 +126,9 @@
       <option name="presentableId" value="Default" />
       <updated>1611657135082</updated>
       <workItem from="1611657140623" duration="12748000" />
-      <workItem from="1611910516514" duration="4140000" />
+      <workItem from="1611910516514" duration="4809000" />
+      <workItem from="1612864638595" duration="35000" />
+      <workItem from="1612864769784" duration="3776000" />
     </task>
     <servers />
   </component>
@@ -136,22 +151,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1611914288942">
+    <state width="1877" height="540" key="GridCell.Tab.0.bottom" timestamp="1612868747991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.305.1366.728@0.0.1920.1040" timestamp="1611914288942" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1611914288942">
+    <state width="1877" height="540" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.305.1366.728@0.0.1920.1040" timestamp="1612868747991" />
+    <state width="1877" height="540" key="GridCell.Tab.0.center" timestamp="1612868747990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.305.1366.728@0.0.1920.1040" timestamp="1611914288942" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1611914288942">
+    <state width="1877" height="540" key="GridCell.Tab.0.center/0.0.1920.1040/1920.305.1366.728@0.0.1920.1040" timestamp="1612868747990" />
+    <state width="1877" height="540" key="GridCell.Tab.0.left" timestamp="1612868747990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.305.1366.728@0.0.1920.1040" timestamp="1611914288942" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1611914288942">
+    <state width="1877" height="540" key="GridCell.Tab.0.left/0.0.1920.1040/1920.305.1366.728@0.0.1920.1040" timestamp="1612868747990" />
+    <state width="1877" height="540" key="GridCell.Tab.0.right" timestamp="1612868747990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.305.1366.728@0.0.1920.1040" timestamp="1611914288942" />
+    <state width="1877" height="540" key="GridCell.Tab.0.right/0.0.1920.1040/1920.305.1366.728@0.0.1920.1040" timestamp="1612868747990" />
     <state x="417" y="196" key="SettingsEditor" timestamp="1611658952159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
