@@ -19,7 +19,11 @@
     "@material-ui/icons": "^4.11.2",
     "@material-ui/styles": "^4.11.3",
     "clsx": "^1.1.1",
+<<<<<<< HEAD
     "next": "^10.0.6",
+=======
+    "next": "10.0.0",
+>>>>>>> febf0344fd126db3f11b0a94b59abbce01c30f15
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "styled-components": "^5.2.1"
