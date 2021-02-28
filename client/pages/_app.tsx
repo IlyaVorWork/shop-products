@@ -26,11 +26,11 @@ const MyApp = ({
   return (
     <ThemeProvider theme={themes[0]}>
       <AppController>
-          <ApolloProvider client={apollo}>
-            <SnackbarProvider>
-              <Component {...pageProps} />
-            </SnackbarProvider>
-          </ApolloProvider>
+        <ApolloProvider client={apollo}>
+          <SnackbarProvider>
+            <Component {...pageProps} />
+          </SnackbarProvider>
+        </ApolloProvider>
       </AppController>
     </ThemeProvider>
   )
