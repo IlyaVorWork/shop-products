@@ -106,8 +106,7 @@ const ForgotPasswordForm: FunctionComponent<IForgotProps> = ({
       <ReCAPTCHA
         ref={recaptchaRef}
         onChange={handleCaptcha}
-        sitekey={process.env.NEXT_PUBLIC_CAPTCHA_SECRET_KEY}
-        className={classes.input}
+        sitekey="6LeCHW0aAAAAAA5tTJqXCtd4qhDF8e6DOPhJC_Q7"
       />
       <Button
         type="submit"
