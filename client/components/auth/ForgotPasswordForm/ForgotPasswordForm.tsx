@@ -84,6 +84,7 @@ const ForgotPasswordForm: FunctionComponent<IForgotProps> = ({
     onSubmit: handleSubmit,
   })
 
+  // @ts-ignore
   return (
     <form onSubmit={formik.handleSubmit}>
       <Input
