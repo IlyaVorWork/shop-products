@@ -75,6 +75,7 @@ const Register: FunctionComponent = () => {
     try {
       const data = await registerUser(dispatch, register, values)
       if (!data.user) {
+        console.log(data)
         enqueueSnackbar(errorMessage(data), {
           variant: 'error',
         })

@@ -30,6 +30,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-google-recaptcha": "^2.1.0",
+    "strapi-provider-email-sendgrid": "^3.5.2",
     "styled-components": "^5.2.0"
   },
   "devDependencies": {
