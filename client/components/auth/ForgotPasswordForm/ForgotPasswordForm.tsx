@@ -36,10 +36,7 @@ const ForgotPasswordForm: FunctionComponent<IForgotProps> = ({
     FORGOT_PASSWORD
   )
   const recaptchaRef = createRef<any>()
-
-  const [captchaToken, setCaptchaToken] = useState<string>(
-    '03AGdBq27y0lbhiA27ln-c6sbilJ8yHR-BMK2XtKBy06pFhoMb-1Db2L1m7PC4apQg5OtMwP_7j2ji1dEBpDA92K6fXZ5iCN7bJFKOotbikOmt1GISnIRizlf4dk4TN9sachmxeqHUdqeyDEKS1aIVTed2TNQj7Hz5tkDeFKkj3d8VuLuJWLhC5u1gpi_xQbz9pHE2PL2621P2paXbnHyRmE_ReaqbNjqnH3kSzXY9G2QjAoILyc0P8WNTqNyZ5Mcn2tfeJAgvhp1P32qq_f0Pt9Ftvu8dSHbzTDKLmsW5zP_xovUkuQpamGhSxYlCwmiGUV0I309Igp-PfNVkXzwmXJvtU-pilyvXbOCfBTKfCPyF8sHQm4CRCgc9xb4m4VkoCgyOLfvyyMg0guBeTP52hOOmKhYb1pqKRj64J6pY1mMYEvVCIW8yNxYKRYjuJWhVW5YNY5Z4XbbR'
-  )
+  const [captchaToken, setCaptchaToken] = useState('')
 
   const initialValues: IForgotPasswordProps = {
     email: '',
@@ -52,35 +49,42 @@ const ForgotPasswordForm: FunctionComponent<IForgotProps> = ({
       .required('Email обязателен для заполнения'),
   })
 
-  const handleSubmit = useCallback(async (values: IForgotPasswordProps) => {
-    console.log(captchaToken, 'captcha token в handleSubmit')
-    if (captchaToken.length) {
-      try {
-        const data = await forgotPasswordUser(dispatch, forgotPassword, values)
-        if (!data.ok) {
-          enqueueSnackbar(errorMessage(data), {
+  const handleSubmit = useCallback(
+    async (values: IForgotPasswordProps) => {
+      console.log(captchaToken)
+      if (captchaToken.length) {
+        try {
+          const data = await forgotPasswordUser(
+            dispatch,
+            forgotPassword,
+            values
+          )
+          if (!data.ok) {
+            enqueueSnackbar(errorMessage(data), {
+              variant: 'error',
+            })
+          } else {
+            setEmailData(data.ok)
+            setFormikEmailData(values.email)
+          }
+        } catch (error) {
+          enqueueSnackbar(errorMessage(error), {
             variant: 'error',
           })
-        } else {
-          setEmailData(data.ok)
-          setFormikEmailData(values.email)
         }
-      } catch (error) {
-        enqueueSnackbar(errorMessage(error), {
+      } else {
+        enqueueSnackbar('Введите капчу', {
           variant: 'error',
         })
       }
-    } else {
-      enqueueSnackbar('Введите капчу', {
-        variant: 'error',
-      })
-    }
-  }, [])
+    },
+    [captchaToken]
+  )
 
   const handleCaptcha = (value) => {
+    console.log(value)
     setCaptchaToken(value)
-    console.log(value, 'value в handleCaptcha')
-    console.log(captchaToken, 'captcha token в handleCaptcha')
+    console.log(captchaToken)
   }
 
   const formik = useFormik({
@@ -90,7 +94,6 @@ const ForgotPasswordForm: FunctionComponent<IForgotProps> = ({
     validateOnMount: true,
   })
 
-  console.log(captchaToken, 'captcha token в компоненте')
   return (
     <form onSubmit={formik.handleSubmit}>
       <Input

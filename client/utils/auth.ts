@@ -3,7 +3,6 @@ import Cookies from 'js-cookie'
 import * as ACTIONS from '@actions/auth'
 
 export const registerUser = async (dispatch, register, payload) => {
-  console.log(payload, 'до try')
   try {
     dispatch(ACTIONS.requestAuth())
     const { data } = await register({
@@ -14,6 +13,7 @@ export const registerUser = async (dispatch, register, payload) => {
         },
       },
     })
+    console.log(data)
     if (data.register?.user) {
       dispatch(ACTIONS.authSuccess(data.register))
       return data.register
@@ -21,7 +21,6 @@ export const registerUser = async (dispatch, register, payload) => {
     dispatch(ACTIONS.authError())
     return data.errors[0]
   } catch (error) {
-    console.log(payload, 'в catch')
     dispatch(ACTIONS.authError())
     return error
   }

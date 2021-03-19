@@ -43,6 +43,7 @@ const Login: FunctionComponent = () => {
     try {
       const data = await loginUser(dispatch, login, values)
       if (!data.user) {
+        console.log(data)
         enqueueSnackbar(errorMessage(data), {
           variant: 'error',
         })
@@ -51,6 +52,7 @@ const Login: FunctionComponent = () => {
         router.push('/my-account')
       }
     } catch (error) {
+      console.log(error)
       enqueueSnackbar(errorMessage(error), { variant: 'error' })
     }
   }, [])

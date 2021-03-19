@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
-  email: {
+  /*email: {
     provider: "sendgrid",
     providerOptions: {
       apiKey: env("SENDGRID_API_KEY"),
@@ -8,7 +8,7 @@ module.exports = ({ env }) => ({
       defaultFrom: "no-reply@food-market.com",
       defaultReplyTo: "reply@food-market.com",
     },
-  },
+  },*/
   upload: {
     provider: "cloudinary",
     providerOptions: {

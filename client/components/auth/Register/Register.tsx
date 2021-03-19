@@ -1,6 +1,5 @@
 import React, {
   FunctionComponent,
-  useCallback,
   useContext,
   useEffect,
   useState,
@@ -71,7 +70,7 @@ const Register: FunctionComponent = () => {
       .required('Подтвердите пароль'),
   })
 
-  const handleSubmit = useCallback(async (values: IRegisterProps) => {
+  const handleSubmit = async (values: IRegisterProps) => {
     try {
       const data = await registerUser(dispatch, register, values)
       if (!data.user) {
@@ -88,15 +87,15 @@ const Register: FunctionComponent = () => {
         router.push('/signin')
       }
     } catch (error) {
+      console.log(error)
       enqueueSnackbar(errorMessage(error), { variant: 'error' })
     }
-  }, [])
+  }
 
   const formik = useFormik({
     initialValues: initialValues,
     validationSchema: validationSchema,
     onSubmit: handleSubmit,
-    validateOnMount: true,
   })
 
   return (
