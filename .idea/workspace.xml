@@ -1,176 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dfec9e15-8d04-43af-b1c5-f457f6fd6a57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.storybook/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.storybook/next-preset.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.storybook/preview.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/Dockerfile.dev" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/babel.config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/ForgotPasswordForm/ForgotPasswordForm.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/ForgotPasswordForm/ForgotPasswordForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/auth/ForgotPasswordForm/ForgotPasswordForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/ForgotPasswordForm/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/Login/Login.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/auth/Login/Login.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/Login/Login.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/Login/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/auth/Login/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/Login/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/Register/Register.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/Register/Register.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/Register/Register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/auth/Register/Register.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/Register/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/ResetPassword/ResetPassword.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/ResetPassword/ResetPassword.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/ResetPassword/ResetPassword.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/ResetPassword/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/ResetPasswordForm/ResetPasswordForm.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/ResetPasswordForm/ResetPasswordForm.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/ResetPasswordForm/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/SocialAuth/SocialAuth.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/SocialAuth/SocialAuth.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/SocialAuth/SocialAuth.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/auth/SocialAuth/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/layouts/AuthLayout/AuthLayout.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/layouts/AuthLayout/AuthLayout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/layouts/AuthLayout/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/layouts/GeneralLayout/GeneralLayout.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/layouts/GeneralLayout/GeneralLayout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/layouts/GeneralLayout/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/layouts/Layout/Layout.style.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/layouts/Layout/Layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/layouts/Layout/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Avatar/Avatar.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Avatar/Avatar.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Avatar/Avatar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Avatar/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Badge/Badge.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Badge/Badge.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Badge/Badge.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Badge/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Breadcrumbs/Breadcrumbs.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Breadcrumbs/Breadcrumbs.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Breadcrumbs/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Button/Button.snapshot.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Button/Button.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Button/Button.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Button/Button.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Button/__snapshots__/Button.snapshot.test.tsx.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Button/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Divider/Divider.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Divider/Divider.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Divider/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/IconButton/IconButton.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/IconButton/IconButton.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/IconButton/IconButton.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/IconButton/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Input/Input.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Input/Input.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Input/Input.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Input/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Link/Link.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Link/Link.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Link/Link.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Link/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/ListItem/ListItem.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/ListItem/ListItem.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/ListItem/ListItem.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/ListItem/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Loader/Loader.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Loader/Loader.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/Loader/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/SocialButton/SocialButton.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/SocialButton/SocialButton.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/SocialButton/SocialButton.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/SocialButton/icons/SocialIcons.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/SocialButton/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/TabPanel/TabPanel.styles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/TabPanel/TabPanel.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/TabPanel/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/ui/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/config/setupTests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/graphql/apolloClient.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/graphql/apolloClient.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/graphql/mutations/ForgotPassword.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/graphql/mutations/LoginUser.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/graphql/mutations/RegisterUser.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/graphql/mutations/ResetPassword.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/graphql/queries/Me.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/hocs/withAuth.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/interfaces/auth.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/interfaces/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/interfaces/layouts.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/jest.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/next-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/next.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/_app.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/_document.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/auth/[provider].tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/reset.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/signin.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/signup.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/images/foodMarket.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/scripts/themes/dark-theme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/scripts/themes/light-theme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/styles/global.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/store/actions/auth.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/store/controllers/AppController.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/store/providers/AppProvider.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/store/providers/ThemeProvider.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/store/reducers/authReducer.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/store/types/auth.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/utils/__mocks__/fileMock.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/utils/__mocks__/styleMock.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/utils/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/utils/auth.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/utils/errorMessage.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/category/config/routes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/category/controllers/category.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/category/models/category.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/category/models/category.settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/category/services/category.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/product/config/routes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/product/controllers/product.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/product/models/product.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/product/models/product.settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/product/services/product.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/user/controller/User.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config/database.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config/functions/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config/functions/cron.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config/functions/responses/404.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/plugins.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/extensions/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/extensions/users-permissions/config/jwt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/extensions/users-permissions/config/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/server/extensions/users-permissions/config/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/extensions/users-permissions/config/security.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/extensions/users-permissions/models/User.settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/uploads/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/yarn.lock" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,12 +113,23 @@
       <workItem from="1615826347247" duration="2864000" />
       <workItem from="1615993892475" duration="5387000" />
       <workItem from="1616148101930" duration="418000" />
-      <workItem from="1616148552800" duration="394000" />
+      <workItem from="1616148552800" duration="647000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1616148548823">
