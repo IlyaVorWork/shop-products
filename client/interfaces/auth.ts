@@ -2,6 +2,13 @@ export interface IUserDataProps {
   id: string
   username: string
   email: string
+  avatar: any
+  confirmed: boolean
+}
+
+type IAvatarProps = {
+  url: string
+  id: string
 }
 
 export interface IAppProps {
@@ -9,6 +16,7 @@ export interface IAppProps {
   user: IUserDataProps | null
   loading: boolean
   token: string | null
+  avatar: IAvatarProps
 }
 
 export interface IRegisterProps {
@@ -53,4 +61,20 @@ export interface IResetPasswordProps {
   password: string
   passwordConfirmation: string
   code: string
+}
+
+export interface IUpdateProps {
+  username: string
+  email: string
+  password: string
+  newPassword: string
+  newPasswordConfirm: string
+}
+
+export interface IUpdateMutationProps {
+  updateUser: IUserDataProps
+}
+
+export interface IUploadFileMutationProps {
+  url: string
 }

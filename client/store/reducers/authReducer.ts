@@ -10,6 +10,10 @@ export const initialState: IAppProps = {
   user: null,
   loading: false,
   token: '',
+  avatar: {
+    url: '',
+    id: '',
+  },
 }
 
 export const authReducer: Reducer<IAppProps, IActionsProps> = (
@@ -21,6 +25,12 @@ export const authReducer: Reducer<IAppProps, IActionsProps> = (
       return {
         ...state,
         loading: true,
+      }
+    }
+    case ACTION_TYPES.STOP_LOADING: {
+      return {
+        ...state,
+        loading: false,
       }
     }
     case ACTION_TYPES.AUTH_SUCCESS: {
@@ -44,12 +54,21 @@ export const authReducer: Reducer<IAppProps, IActionsProps> = (
         ...state,
         user: null,
         token: null,
+        isAuthenticated: false,
+        loading: false,
       }
     }
     case ACTION_TYPES.UPDATE_USER_SUCCESS: {
       return {
         ...state,
         user: action.payload,
+      }
+    }
+    case ACTION_TYPES.LOAD_AVATAR: {
+      return {
+        ...state,
+        avatar: action.payload,
+        loading: false,
       }
     }
     default:

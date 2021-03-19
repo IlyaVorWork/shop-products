@@ -15,11 +15,18 @@ const Layout: FunctionComponent<ILayoutProps> = ({ children, title = '' }) => {
   const changeLayout = () => {
     switch (router.pathname) {
       case '/':
+      case '/my-account':
+      case '/profile':
+      case '/shop':
+      case '/test':
         return <GeneralLayout>{children}</GeneralLayout>
       case '/signin':
       case '/signup':
       case '/reset':
+      case '/social':
         return <AuthLayout>{children}</AuthLayout>
+      default:
+        return <GeneralLayout>{children}</GeneralLayout>
     }
   }
 

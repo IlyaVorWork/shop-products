@@ -1,14 +1,14 @@
 import {
+  // createHttpLink,
   ApolloClient,
-  InMemoryCache,
   NormalizedCacheObject,
-  ApolloLink,
+  InMemoryCache,
   from,
-  createHttpLink,
+  ApolloLink,
 } from '@apollo/client'
-// import { createUploadLink } from 'apollo-upload-client'
 import withApollo from 'next-with-apollo'
-// import fetch from 'isomorphic-unfetch'
+import { createUploadLink } from 'apollo-upload-client'
+import fetch from 'isomorphic-unfetch'
 import Cookies from 'js-cookie'
 
 const authMiddleware = new ApolloLink((operation, forward) => {
@@ -24,16 +24,13 @@ const authMiddleware = new ApolloLink((operation, forward) => {
   return forward(operation)
 })
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 export default withApollo(({ initialState }) => {
-  console.log(process.env.STRAPI_API_URL)
   return new ApolloClient<NormalizedCacheObject>({
     link: from([
       authMiddleware,
-      //createUploadLink({
-      //  uri: `${process.env.STRAPI_API_URL}/graphql`,
-      //}),
-      createHttpLink({
+      createUploadLink({
         uri: `${process.env.STRAPI_API_URL}/graphql`,
         credentials: 'same-origin',
         fetch,

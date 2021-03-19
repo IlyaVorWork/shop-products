@@ -7,16 +7,18 @@ export const useStyles = makeStyles((theme: Theme) =>
       padding: '0 40px',
       flex: 1,
     },
-    logoutLink: {
+    linkStyle: {
       cursor: 'pointer',
-      color: theme.palette.secondary.main,
       textDecoration: 'none',
+      color: theme.palette.primary.contrastText,
       '&:hover': {
-        textDecoration: 'underline',
+        color: theme.palette.secondary.main,
+        // textDecoration: 'underline',
       },
     },
     header: {
       padding: '20px 40px',
+      fontWeight: 500,
     },
   })
 )

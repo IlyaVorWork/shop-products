@@ -36,7 +36,7 @@ const ForgotPasswordForm: FunctionComponent<IForgotProps> = ({
     FORGOT_PASSWORD
   )
   const recaptchaRef = createRef<any>()
-  const [captchaToken, setCaptchaToken] = useState('')
+  const [captchaToken, setCaptchaToken] = useState<string>('')
 
   const initialValues: IForgotPasswordProps = {
     email: '',
@@ -49,49 +49,39 @@ const ForgotPasswordForm: FunctionComponent<IForgotProps> = ({
       .required('Email обязателен для заполнения'),
   })
 
-  const handleSubmit = useCallback(
-    async (values: IForgotPasswordProps) => {
-      console.log(captchaToken)
-      if (captchaToken.length) {
-        try {
-          const data = await forgotPasswordUser(
-            dispatch,
-            forgotPassword,
-            values
-          )
-          if (!data.ok) {
-            enqueueSnackbar(errorMessage(data), {
-              variant: 'error',
-            })
-          } else {
-            setEmailData(data.ok)
-            setFormikEmailData(values.email)
-          }
-        } catch (error) {
-          enqueueSnackbar(errorMessage(error), {
+  const handleSubmit = useCallback(async (values: IForgotPasswordProps) => {
+    console.log(captchaToken)
+    if (captchaToken.length) {
+      try {
+        const data = await forgotPasswordUser(dispatch, forgotPassword, values)
+        if (!data.ok) {
+          enqueueSnackbar(errorMessage(data), {
             variant: 'error',
           })
+        } else {
+          setEmailData(data.ok)
+          setFormikEmailData(values.email)
         }
-      } else {
-        enqueueSnackbar('Введите капчу', {
+      } catch (error) {
+        enqueueSnackbar(errorMessage(error), {
           variant: 'error',
         })
       }
-    },
-    [captchaToken]
-  )
+    } else {
+      enqueueSnackbar('Введите капчу', {
+        variant: 'error',
+      })
+    }
+  }, [captchaToken])
 
   const handleCaptcha = (value) => {
-    console.log(value)
     setCaptchaToken(value)
-    console.log(captchaToken)
   }
 
   const formik = useFormik({
     initialValues: initialValues,
     validationSchema: validationSchema,
     onSubmit: handleSubmit,
-    validateOnMount: true,
   })
 
   return (

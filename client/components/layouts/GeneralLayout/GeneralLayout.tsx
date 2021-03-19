@@ -7,17 +7,23 @@ import { Link } from '@ui/index'
 import { logoutUser } from '@utils/auth'
 import { AppContext } from '@providers/AppProvider'
 import { ILayoutProps } from '@interfaces/layouts'
-import { errorMessage } from '@utils/errorMessage'
+import { errorMessage } from '@hooks/auth/errorMessage'
 
 import { useStyles } from './GeneralLayout.styles'
+
+import { ThemeContext } from '@providers/ThemeProvider'
+
+import * as ThemeActions from '@actions/theme'
+import { ThemeType } from '@interfaces/theme'
 
 const GeneralLayout: FunctionComponent<ILayoutProps> = ({ children }) => {
   const classes = useStyles()
   const { state, dispatch } = useContext(AppContext)
+  const { dispatch: themeDispatch } = useContext(ThemeContext)
   const { isAuthenticated } = state
   const router = useRouter()
   const { enqueueSnackbar } = useSnackbar()
-
+  console.log(state)
   const logout = async () => {
     try {
       await logoutUser(dispatch)
@@ -31,6 +37,9 @@ const GeneralLayout: FunctionComponent<ILayoutProps> = ({ children }) => {
       })
     }
   }
+
+  const swapTheme = async (t: ThemeType) =>
+    await themeDispatch(ThemeActions.changeTheme(t))
 
   return (
     <>
@@ -48,8 +57,28 @@ const GeneralLayout: FunctionComponent<ILayoutProps> = ({ children }) => {
               </Grid>
             </Grid>
             <Grid item>
+              <Grid container spacing={1}>
+                <Grid item>
+                  <span
+                    className={classes.linkStyle}
+                    onClick={() => swapTheme('Light')}
+                  >
+                    Светлая тема
+                  </span>
+                </Grid>
+                <Grid item>
+                  <span
+                    className={classes.linkStyle}
+                    onClick={() => swapTheme('Dark')}
+                  >
+                    Тёмная тема
+                  </span>
+                </Grid>
+              </Grid>
+            </Grid>
+            <Grid item>
               <span
-                className={classes.logoutLink}
+                className={classes.linkStyle}
                 onClick={async () => await logout()}
               >
                 Выход

@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
 import App, { AppProps } from 'next/app'
-import { ApolloProvider } from '@apollo/client'
+import withApollo from '@graphql/apolloClient'
 import { SnackbarProvider } from 'notistack'
 
-import withApollo from '@graphql/apolloClient'
-import ThemeProvider from '@providers/ThemeProvider'
+import ApolloClientProvider from '@providers/ApolloClientProvider'
 import AppController from '@controllers/AppController'
-import { themes } from '../.storybook/preview'
+import ShopController from '@controllers/ShopController'
+import ThemeController from '@controllers/ThemeController'
 
 import 'sanitize.css'
 import '@public/styles/global.sass'
@@ -24,15 +24,17 @@ const MyApp = ({
   }, [])
 
   return (
-    <ThemeProvider theme={themes[0]}>
+    <ThemeController>
       <AppController>
-        <ApolloProvider client={apollo}>
-          <SnackbarProvider>
-            <Component {...pageProps} />
-          </SnackbarProvider>
-        </ApolloProvider>
+        <ApolloClientProvider client={apollo}>
+          <ShopController>
+            <SnackbarProvider>
+              <Component {...pageProps} />
+            </SnackbarProvider>
+          </ShopController>
+        </ApolloClientProvider>
       </AppController>
-    </ThemeProvider>
+    </ThemeController>
   )
 }
 

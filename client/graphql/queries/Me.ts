@@ -7,6 +7,18 @@ const ME = gql`
       username
       email
       confirmed
+      avatar {
+        url
+        id
+      }
+      #      cart {
+      #        products {
+      #          name
+      #          id
+      #          price
+      #          count
+      #        }
+      #      }
     }
   }
 `
